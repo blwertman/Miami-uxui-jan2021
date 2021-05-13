@@ -1,0 +1,30 @@
+
+div {
+    border: 1px #333 solid;
+}
+
+section {
+    background-color: lightgray;
+    padding: 50px 10px;
+
+}
+
+.card {
+    width: 250px;
+}
+.img-card {
+    width: 100%;
+}
+
+.img-feat {
+width: 80px;
+height: 80 px;
+}
+
+#hero {
+    /* background-image: url('../img/tomoko-uji-Oq6Mdb4o6vA-unsplash.jpg'); */
+    background-image: url('../img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg');
+    background-size: cover;
+    height: 20vh;
+    text-align: center;
+}

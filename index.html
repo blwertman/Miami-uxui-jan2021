@@ -8,12 +8,23 @@
     <meta name="keywords" content= "UXUI, Ironhack, Design Principles">
     <meta name="author" content="Brooke Wertman">
     <title>Brooke's Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        /* div {
+            border: 1px red solid;
+        } */
+    </style>
 </head>
 <body>
     <!-- Header - start -->
     <header>
-        <img scr="" alt="Brooke's Logo"> logo
-        search
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Brooke's Logo">
+    
+        <form action="#">
+        <input type="search">
+        <input type="submit" value="Find">
+        </form>
+        
         <nav> 
             About
             Products
@@ -24,7 +35,7 @@
     <!-- Header - end  -->
 
     <!-- Hero - start -->
-    <section>
+    <section id="hero">
         <h1>Heading 1</h1>
         <h3>Heading 3</h3>
         Call to Action
@@ -34,31 +45,31 @@
     <!-- Articles Cards - start  -->
     <section>
         <!-- Card 1 - start  -->
-        <div>
-            <img scr="" alt"">
+        <div class="card">
+            <img src="img/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg" alt="" class="img-card">
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img scr="" alt="">
+            <img src="img/avatar_02.png" alt="">
             <p>author name</p>
         </div>
         <!-- Card 1 - end   -->
 
         <!-- Card 2 - start  -->
-        <div>
-            <img scr="" alt"">
+        <div class="card">
+            <img src="img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg" alt="" class="img-card">
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img scr="" alt="">
+            <img src="img/avatar_04.png" alt="">
             <p>author name</p>
         </div>
         <!-- Card 2 - end   -->
 
         <!-- Card 3 - start  -->
-        <div>
-            <img scr="" alt"">
+        <div class="card">
+            <img src="img/tomoko-uji-eriuKJwcdjI-unsplash.jpg" alt="" class="img-card">
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img scr="" alt="">
+            <img src="img/avatar_07.png" alt="">
             <p>author name</p>
         </div>
         <!-- Card 3 - end   -->
@@ -77,7 +88,7 @@
     <section>
         <!-- Feature 1 - start  -->
         <div>
-            <img src="" alt="">
+            <img src="img/annie-spratt-gXQCELcnI2U-unsplash.jpg" alt="" class="img-feat">
             <h2>title</h2>
             <p>description</p>
         </div>
@@ -85,7 +96,7 @@
 
         <!-- Feature 2 - start  -->
         <div>
-            <img src="" alt="">
+            <img src="img/rod-long-aJvSX36kweg-unsplash.jpg" alt="" class="img-feat">
             <h2>title</h2>
             <p>description</p>
         </div>
@@ -93,7 +104,7 @@
 
         <!-- Feature 3 - start  -->
         <div>
-            <img src="" alt="">
+            <img src="img/toa-heftiba-tuIedADlL_Q-unsplash.jpg" alt="" class="img-feat">
             <h2>title</h2>
             <p>description</p>
         </div>
@@ -109,10 +120,24 @@
         <p>Address</p>
     </div>
     <div>
-        name
-        email 
-        message 
-        button 
+        <form>
+            <label for="name">Name</label><br>
+            <input id="name" type="text" placeholder="Brooke Wertman">
+            
+            <br><br>
+
+            <label for="email">Email</label><br>
+            <input id="email" type="email" placeholder="blwertman@gmail.com">
+
+            <br><br>
+
+            <label for="message">Message</label><br>
+            <textarea input id="message" rows="6" cols="50"></textarea>
+            
+            <br><br>
+
+            <input type="submit" value="Send Message"> 
+        </form>
     </div>
 </section>
 <!-- Contact - end -->
