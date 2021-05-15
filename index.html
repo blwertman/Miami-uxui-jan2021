@@ -8,16 +8,23 @@
     <meta name="keywords" content= "UXUI, Ironhack, Design Principles">
     <meta name="author" content="Brooke Wertman">
     <title>Brooke's Page</title>
+    <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
     <style type="text/css">
         /* div {
             border: 1px red solid;
         } */
     </style>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Krona+One&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 <body>
     <!-- Header - start -->
-    <header>
+    <header class="container">
         <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Brooke's Logo">
     
         <form action="#">
@@ -26,10 +33,11 @@
         </form>
         
         <nav> 
-            About
-            Products
-            Testimonials
-            Contact
+            <a href="#">About Us</a>
+            <a href="#">Products</a>
+            <a href="#">Testimonials</a>
+            <a href="#contact">Contact</a>
+            <a href="#" class="cv-button"><i class="ri-file-download-line ri-1x"></i> Download CV</a>
         </nav>
     </header>
     <!-- Header - end  -->
@@ -38,49 +46,56 @@
     <section id="hero">
         <h1>Heading 1</h1>
         <h3>Heading 3</h3>
-        Call to Action
+        <a href="#" class="cta-button"><i class="ri-shopping-cart-2-fill ri-lg"></i> Call to Action</a>
     </section>
     <!-- Hero - end  -->
 
     <!-- Articles Cards - start  -->
-    <section>
+    <section id="articles" class="container">
         <!-- Card 1 - start  -->
         <div class="card">
             <img src="img/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg" alt="" class="img-card">
-            <h3>heading 3</h3>
+            <h5>heading 5</h5>
             <p>paragraph</p>
-            <img src="img/avatar_02.png" alt="">
-            <p>author name</p>
+            <div class="container author-card">
+                <img src="img/avatar_02.png" alt="avatar" class="author-photo">
+                <p>author name</p>
+            </div>
         </div>
         <!-- Card 1 - end   -->
 
         <!-- Card 2 - start  -->
         <div class="card">
             <img src="img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg" alt="" class="img-card">
-            <h3>heading 3</h3>
+            <h5>heading 5</h5>
             <p>paragraph</p>
-            <img src="img/avatar_04.png" alt="">
-            <p>author name</p>
+            <div class="container author-card">
+                <img src="img/avatar_04.png" alt="avatar" class="author-photo">
+                <p>author name</p>
+            </div>
         </div>
         <!-- Card 2 - end   -->
 
         <!-- Card 3 - start  -->
         <div class="card">
             <img src="img/tomoko-uji-eriuKJwcdjI-unsplash.jpg" alt="" class="img-card">
-            <h3>heading 3</h3>
+            <h5>heading 5</h5>
             <p>paragraph</p>
-            <img src="img/avatar_07.png" alt="">
-            <p>author name</p>
+            <div class="container author-card">
+                <img src="img/avatar_07.png" alt="avatar" class="author-photo">
+                <p>author name</p>
+            </div>
         </div>
         <!-- Card 3 - end   -->
     </section>
     <!-- Article Cards - end  -->
 
     <!-- Video - start  -->
-    <section>
-        <video>
+    <section id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XodAVdadsic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <video> 
             <source src="" type="video/mp4">
-        </video>
+        </video> -->
     </section>
     <!-- Video - end  -->
 
@@ -114,7 +129,7 @@
           
 
 <!-- Contact - start -->
-<section>
+<section id="contact">
     <div>
         <h3>Contact Us</h3>
         <p>Address</p>
@@ -146,18 +161,21 @@
 <footer>
     <!-- Menu - start -->
     <div>
-    About Us 
-    Products 
-    Testimonials 
+    <a href="#">About Us</a>
+    <a href="#">Products</a>
+    <a href="#">Testimonials</a>
     </div>
     <!-- Menu - end -->
 
     <!-- Social Media - start -->
     <div>
     <h4>Social Media</h4>
-        Facebook 
-        Instagram 
-        Twitter 
+    <div class="icons">
+        <a href="https://facebook.com" target="_blank"><i class="ri-facebook-box-line"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="ri-instagram-line"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="ri-twitter-line"></i></a>
+        <a href="https://medium.com" target="_blank"><i class="ri-medium-line"></i></a>
+    </div>
     </div>
     <!-- Social Media - end -->
 </footer>

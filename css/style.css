@@ -1,4 +1,41 @@
 
+
+* {
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Krona One', sans-serif;
+}
+
+h1 {
+   font-size: 4.209rem;
+}
+
+h2 {
+    font-size: 3.052rem; 
+}
+
+h3 {
+    font-size: 2.441rem; 
+}
+
+h4 {
+    font-size: 1.953rem; 
+}
+
+h5 {
+    font-size: 1.563rem; 
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+    color: #333;
+}
+    
 div {
     border: 1px #333 solid;
 }
@@ -7,6 +44,63 @@ section {
     background-color: lightgray;
     padding: 50px 10px;
 
+}
+
+/* Links */
+a:link, a:visited {
+    text-decoration: none;
+    color:lightseagreen;
+    padding: 10px;
+}
+
+a:hover {
+    color:midnightblue;
+}
+
+a:active {
+    color: olive
+}
+
+/* CTA Button*/
+a.cta-button:link, a.cta-button:visited {
+    background-color:darkblue;
+    border-radius: 8px;
+    color:papayawhip;
+    padding: 16px 24px;
+}
+
+a.cta-button:hover {
+    background-color:royalblue;
+}
+
+a.cta-button:active {
+    background-color:dodgerblue;
+}
+
+/* CV Download Button */
+a.cv-button:link, a.cv-button:visited {
+    background-color:darkblue;
+    border-radius: 8px;
+    color:papayawhip;
+    padding: 8px 16px;
+}
+
+a.cv-button:hover {
+    background-color:royalblue;
+}
+
+a.cv-button:active {
+    background-color:dodgerblue;
+}
+
+header {
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px;
+}
+
+img {
+    /* width: 100%*/
 }
 
 .card {
@@ -21,9 +115,26 @@ width: 80px;
 height: 80 px;
 }
 
+.icons {
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+}
+
+.author-card {
+    align-items: center;
+}
+.author-photo {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
 #hero {
     background-image: url('../img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg');
     background-size: cover;
-    height: 20vh;
+    height: 40vh;
     text-align: center;
 }
