@@ -42,55 +42,7 @@ div {
 
 section {
     background-color: lightgray;
-    padding: 50px 10px;
-
-}
-
-/* Links */
-a:link, a:visited {
-    text-decoration: none;
-    color:lightseagreen;
-    padding: 10px;
-}
-
-a:hover {
-    color:midnightblue;
-}
-
-a:active {
-    color: olive
-}
-
-/* CTA Button*/
-a.cta-button:link, a.cta-button:visited {
-    background-color:darkblue;
-    border-radius: 8px;
-    color:papayawhip;
-    padding: 16px 24px;
-}
-
-a.cta-button:hover {
-    background-color:royalblue;
-}
-
-a.cta-button:active {
-    background-color:dodgerblue;
-}
-
-/* CV Download Button */
-a.cv-button:link, a.cv-button:visited {
-    background-color:darkblue;
-    border-radius: 8px;
-    color:papayawhip;
-    padding: 8px 16px;
-}
-
-a.cv-button:hover {
-    background-color:royalblue;
-}
-
-a.cv-button:active {
-    background-color:dodgerblue;
+    padding: 80px 40px;
 }
 
 header {
@@ -103,26 +55,63 @@ img {
     /* width: 100%*/
 }
 
+/* Links */
+a:link, a:visited {
+    text-decoration: none;
+    color:lightseagreen;
+    padding: 10px;
+}
+a:hover {
+    color:midnightblue;
+}
+a:active {
+    color: olive
+}
+
+/* CTA Button*/
+a.cta-button:link, a.cta-button:visited {
+    background-color:darkblue;
+    border-radius: 8px;
+    color:papayawhip;
+    padding: 16px 24px;
+}
+a.cta-button:hover {
+    background-color:royalblue;
+}
+a.cta-button:active {
+    background-color:dodgerblue;
+}
+
+/* CV Download Button */
+a.cv-button:link, a.cv-button:visited {
+    background-color:darkblue;
+    border-radius: 8px;
+    color:papayawhip;
+    padding: 8px 16px;
+}
+a.cv-button:hover {
+    background-color:royalblue;
+}
+a.cv-button:active {
+    background-color:dodgerblue;
+}
+
 .card {
     width: 250px;
 }
 .img-card {
     width: 100%;
 }
-
 .img-feat {
 width: 80px;
 height: 80 px;
 }
-
 .icons {
     font-size: 24px;
 }
-
 .container {
     display: flex;
 }
-
 .author-card {
     align-items: center;
 }
@@ -131,7 +120,6 @@ height: 80 px;
     height: 40px;
     margin-right: 8px;
 }
-
 #hero {
     background-image: url('../img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg');
     background-size: cover;
