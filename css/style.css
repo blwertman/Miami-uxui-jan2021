@@ -4,8 +4,13 @@
     font-family: 'Exo 2', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Krona One', sans-serif;
+    margin: 10px 0; 
 }
 
 h1 {
@@ -51,6 +56,10 @@ header {
     padding: 36px;
 }
 
+footer {
+    justify-content: space-evenly;
+}
+
 img {
     /* width: 100%*/
 }
@@ -61,9 +70,11 @@ a:link, a:visited {
     color:lightseagreen;
     padding: 10px;
 }
+
 a:hover {
     color:midnightblue;
 }
+
 a:active {
     color: olive
 }
@@ -75,9 +86,11 @@ a.cta-button:link, a.cta-button:visited {
     color:papayawhip;
     padding: 16px 24px;
 }
+
 a.cta-button:hover {
     background-color:royalblue;
 }
+
 a.cta-button:active {
     background-color:dodgerblue;
 }
@@ -89,9 +102,11 @@ a.cv-button:link, a.cv-button:visited {
     color:papayawhip;
     padding: 8px 16px;
 }
+
 a.cv-button:hover {
     background-color:royalblue;
 }
+
 a.cv-button:active {
     background-color:dodgerblue;
 }
@@ -99,30 +114,51 @@ a.cv-button:active {
 .card {
     width: 250px;
 }
+
 .img-card {
     width: 100%;
 }
+
 .img-feat {
 width: 80px;
-height: 80 px;
+height: 80px;
 }
+
 .icons {
     font-size: 24px;
 }
+
 .container {
     display: flex;
 }
 .author-card {
     align-items: center;
 }
+
 .author-photo {
     width: 40px;
     height: 40px;
     margin-right: 8px;
+}
+
+.feat-card {
+
 }
 #hero {
     background-image: url('../img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg');
     background-size: cover;
     height: 40vh;
     text-align: center;
+}
+
+#hero div {
+    padding: 20px;
+}
+
+#articles {
+    justify-content: space-between;
+}
+#contact {
+    justify-content: space-around; 
+    background-color: whitesmoke;
 }
