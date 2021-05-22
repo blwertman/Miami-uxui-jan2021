@@ -42,7 +42,7 @@ p {
 }
     
 div {
-    border: 1px #333 solid;
+    /* border: 1px #333 solid; */
 }
 
 section {
@@ -73,6 +73,56 @@ a:link, a:visited {
     text-decoration: none;
     color:lightseagreen;
     padding: 10px;
+}
+
+/* Forms */
+
+input {
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input:focus {
+    background-color: palegoldenrod;
+    border: none;
+}
+input[type=text] {
+    background-image: url('../icons/user-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 75%
+}
+
+input[type=email] {
+    background-image: url('../icons/mail-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 75%; 
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+    resize: none;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#btn-form {
+    width: 94%;
 }
 
 a:hover {
@@ -170,6 +220,11 @@ margin: 20px;
     box-shadow: 4px 4px 0 #131045;
     border-radius: 100px;
 }
+
+.div-contact {
+    flex: 1;
+}
+
 #hero {
     background-image: url('../img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg');
     background-size: cover;
@@ -187,6 +242,10 @@ margin: 20px;
 #contact {
     justify-content: space-around; 
     background-color: whitesmoke;
+}
+
+#contact div {
+    padding: 20px; 
 }
 
 #video {
