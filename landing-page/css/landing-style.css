@@ -1,0 +1,107 @@
+
+* {
+    font-family: 'Gabriela', serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gabriela', serif;
+    margin: 10px 0; 
+}
+
+h1 {
+   font-size: 96px;
+}
+
+h2 {
+    font-size: 64px; 
+}
+
+h3 {
+    font-size: 52px; 
+}
+
+h4 {
+    font-size: 48px; 
+}
+
+h5 {
+    font-size: 36px; 
+}
+
+h6 {
+    font-size: 16px;
+}
+p {
+    font-size: 24px
+}
+
+div {
+    border: 1px #333 solid;
+}
+
+section {
+    background-color:#F6F5ED;
+    padding: 80px 40px;
+}
+.container {
+    display: flex;
+}
+
+header { 
+    height: 216px;
+    background: #323732;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 27px 175px;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    
+    width: 594px;
+    height: 77px;
+    left: 671px;
+    top: 69.5px;
+}
+.img-logo {
+    width: 160px;
+    height: 160px;
+}
+
+#hero {
+    background-image:url('../img/jordan-arnold-Ul07QK2AR-0-unsplash.jpg');
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+}
+/* Links */
+a:link, a:visited {
+    text-decoration: none;
+    color:#F6F5ED;
+    padding: 10px;
+}
+
+/* CTA Button*/
+a.cta-button:link, a.cta-button:visited {
+    background: #7B925C;
+    border-radius: 10px;
+}
+
+a.cta-button:hover {
+    background: #657353;
+    border-radius: 10px;
+}
+
+a.cta-button:active {
+    background: #24350E;
+    border-radius: 10px;
+}
